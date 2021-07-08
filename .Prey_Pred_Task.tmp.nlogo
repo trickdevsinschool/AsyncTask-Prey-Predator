@@ -128,7 +128,7 @@ to recolor-grass
   set pcolor scale-color green (10 - grass-amount) -10 20
 end
 to reproduce
-  set energy energy - 2
+  set energy energy /
   if repro-probability? [hatch 1]
 end
 
