@@ -244,7 +244,7 @@ SLIDER
 12
 198
 185
-232
+231
 number-of-barns
 number-of-barns
 0
@@ -259,7 +259,7 @@ SLIDER
 13
 251
 186
-285
+284
 grass-regrowth-rate
 grass-regrowth-rate
 0
@@ -274,7 +274,7 @@ MONITOR
 15
 301
 73
-347
+346
 ufos
 count ufos
 2
@@ -285,7 +285,7 @@ MONITOR
 17
 364
 75
-410
+409
 cows
 count cows
 0
@@ -296,7 +296,7 @@ MONITOR
 93
 300
 151
-346
+345
 grass
 sum [ grass-amount ] of patches
 0
@@ -305,40 +305,38 @@ sum [ grass-amount ] of patches
 
 @#$#@#$#@
 ## WHAT IS IT?
-
-(a general understanding of what the model is trying to show or explain)
+This model is made by Broqueza, Narvasa, Silverio to simulate a predator-prey relationship between UFOs and Cows.
 
 ## HOW IT WORKS
 
-(what rules the agents use to create the overall behavior of the model)
+Setup button- Sets the scenario to simulate
+Go button- Starts simulation
+Sliders (cows and ufo numbers)- plots number of cows and numbers
+Monitors (cows, grass, ufos)- tracks the count of elements in simulation.
 
 ## HOW TO USE IT
 
-(how to use the model, including a description of each of the items in the Interface tab)
+Set the NUMBER-OF-COWS and NUMBER-OF-UFOS slider and press SETUP to create the initial population. The GRASS-REGROWTH-RATE slider affects how fast the grass grows back.
+After this, press the GO button to make the sheep and wolves move around the landscape, and interact.
 
 ## THINGS TO NOTICE
 
-(suggested things for the user to notice while running the model)
+How does the number of cows affect the population levels? How does the number of ufos affect the population levels?
+Is there a spatial relationship between where the cows do well and where the ufos do well?
+How does the presence of barns affect the system?
 
 ## THINGS TO TRY
 
-(suggested things for the user to try to do (move sliders, switches, etc.) with the model)
-
-## EXTENDING THE MODEL
-
-(suggested things to add or change in the Code tab to make the model more complicated, detailed, accurate, etc.)
-
-## NETLOGO FEATURES
-
-(interesting or unusual features of NetLogo that the model uses, particularly in the Code tab; or where workarounds were needed for missing features)
-
-## RELATED MODELS
-
-(models in the NetLogo Models Library and elsewhere which are of related interest)
+Try using the barn and compare it when you have no barns around.
 
 ## CREDITS AND REFERENCES
 
-(a reference to the model's URL on the web if it has one, as well as any other necessary credits, citations, and links)
+
+Wilensky, U. (2007). NetLogo Wolf Sheep Simple 5 model. http://ccl.northwestern.edu/netlogo/models/WolfSheepSimple5. Center for Connected Learning and Computer-Based Modeling, Northwestern Institute on Complex Systems, Northwestern University, Evanston, IL.
+
+Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Wilensky, U. & Rand, W. (2015). Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo. Cambridge, MA. MIT Press.
 @#$#@#$#@
 default
 true
