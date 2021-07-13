@@ -133,10 +133,7 @@ to recolor-grass
   set pcolor scale-color green (10 - grass-amount) -10 20
 end
 to reproduce
-  if energy > 200 [
-    set energy energy - 100  ;; reproduction transfers energy
-    hatch 1 [ set energy 100 ] ;; to the new agent
-  ]
+
 end
 
 
@@ -226,7 +223,7 @@ number-of-cows
 number-of-cows
 0
 200
-200.0
+98.0
 1
 1
 NIL
@@ -241,7 +238,7 @@ number-of-ufos
 number-of-ufos
 0
 200
-31.0
+18.0
 1
 1
 NIL
@@ -256,7 +253,7 @@ number-of-barns
 number-of-barns
 0
 100
-49.0
+0.0
 1
 1
 NIL
