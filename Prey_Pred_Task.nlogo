@@ -241,7 +241,7 @@ number-of-ufos
 number-of-ufos
 0
 200
-31.0
+30.0
 1
 1
 NIL
@@ -256,7 +256,7 @@ number-of-barns
 number-of-barns
 0
 100
-49.0
+0.0
 1
 1
 NIL
